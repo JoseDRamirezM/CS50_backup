@@ -1,0 +1,65 @@
+body, input{
+    background-color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    outline: none;
+    font-size: 20px;
+}
+
+.s_bar{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+td, tr{
+    text-align: center;
+    border: 20px solid white;
+}
+
+.bar_style{
+    height: 44px;
+    width: 482px;
+    border-radius: 50px;
+    font-size: 20px;
+    border-color:  #d1c9c9;
+    padding-left: 20px;
+}
+
+.s_button{
+    font-size: 20px;
+    border-radius: 4px;
+    height: 36px;
+    width: auto;
+    border-color:  #d1c9c9;
+    box-shadow: 0;
+}
+
+.link{
+    float: right;
+}
+
+.adv_s{
+    margin: 10px;
+    text-align: left;
+}
+
+td.adv_s{
+    text-align: left;
+}
+
+h3 {
+    color: red;
+}
+
+.adv_s_button{
+    font-size: 20px;
+    border-radius: 4px;
+    color: white;
+    background-color: blue;
+    height: 36px;
+    width: auto;
+    border-color:  #d1c9c9;
+    box-shadow: 0;
+    float: right;
+}
